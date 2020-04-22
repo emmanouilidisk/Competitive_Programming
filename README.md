@@ -1,7 +1,7 @@
 # Competitive Programming
 :rocket:Competitive Programming problems from Hackerrank and Cs Academy with solutions.
 
-**Problems:**  
+**Problems:**
 - [Cats and a Mouse](https://www.hackerrank.com/challenges/cats-and-a-mouse/problem)  
 - [Circular Array Rotation](https://www.hackerrank.com/challenges/circular-array-rotation/problem)  
 - [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem)  
