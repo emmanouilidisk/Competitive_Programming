@@ -1,22 +1,27 @@
 n = int(input())
-N = [[] for i in range(n+2)]
-for i in range(1,2*n,2):
-    print(i,(i+1))
-    inp = input()
-    
-    if inp == "-1":
-        exit(1) 
-    if inp=="MATCH":
-        continue
-    a,b=inp.split()
-    a = int(a)
-    b = int(b)
-    N[a].append(i)
-    N[b].append(i+1)
+if n == -1:
+    print(-1)
 
-for j in range(1, n+1):
-    if N[j]:
-        print(N[j][0],N[j][1])
-        
+arr = []
+for i in range(1, 2*n + 1, 2):
+    print(i, i+1)
+    resp = input()
+    if resp == 'MATCH':
+        arr.append(0)
+        arr.append(0)
+    elif resp == '-1':
+        print(-1)
+    else:
+        resp = resp.split(' ')
+        arr.append(int(resp[0]))
+        arr.append(int(resp[1]))
+
+for i in range(1, n+1):
+    res_list = [j for j, value in enumerate(arr) if value == i]
+    if res_list:
+        arr[res_list[0]] = arr[res_list[1]] = 0
+        print(res_list[0]+1, res_list[1]+1)
+        resp = input()
+        if resp == '-1':
+            print(-1)
 print(-1)
-    
