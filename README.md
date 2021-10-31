@@ -1,12 +1,10 @@
 # Competitive Programming
-:rocket:Competitive Programming problems from Hackerrank and Cs Academy with solutions.
+:rocket: Competitive Programming problems from IEEExtreme, Hackerrank and Cs Academy with solutions.
+  
+## Contributing
+:blue_book: Feel free to open a pull request and contribute to this repo with your problems!
+  
+**Disclaimer:**   
+The problems and solutions are not necessarily a property of the repo's owner,  
+but in contrast the repo serves as a "place" for gathering competitive programming problems from various resources. 
 
-**Problems:**
-- [Cats and a Mouse](https://www.hackerrank.com/challenges/cats-and-a-mouse/problem)  
-- [Circular Array Rotation](https://www.hackerrank.com/challenges/circular-array-rotation/problem)  
-- [Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem)  
-- [Find Digits](https://www.hackerrank.com/challenges/find-digits/problem)  
-- [Frequent Numbers](https://csacademy.com/contest/archive/task/frequent-numbers)  
-- [HackerRank in a String!](https://www.hackerrank.com/challenges/hackerrank-in-a-string/problem)  
-- [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem)  
-- [Repeated String](https://www.hackerrank.com/challenges/repeated-string/problem)
